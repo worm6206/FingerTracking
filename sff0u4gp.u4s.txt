@@ -1,0 +1,203 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   finger (K-means)/.gitignore
+#	new file:   finger (K-means)/HandViewer/0.txt
+#	new file:   finger (K-means)/HandViewer/1.txt
+#	new file:   finger (K-means)/HandViewer/2.txt
+#	new file:   finger (K-means)/HandViewer/3.txt
+#	new file:   finger (K-means)/HandViewer/4.txt
+#	new file:   finger (K-means)/HandViewer/5.txt
+#	new file:   finger (K-means)/HandViewer/ClassDiagram1.cd
+#	new file:   finger (K-means)/HandViewer/GlU32.Lib
+#	new file:   finger (K-means)/HandViewer/HandViewer.sln
+#	new file:   finger (K-means)/HandViewer/HandViewer.vcxproj
+#	new file:   finger (K-means)/HandViewer/HandViewer.vcxproj.filters
+#	new file:   finger (K-means)/HandViewer/HistoryBuffer.h
+#	new file:   finger (K-means)/HandViewer/NiteSampleUtilities.h
+#	new file:   finger (K-means)/HandViewer/Record.txt
+#	new file:   finger (K-means)/HandViewer/Viewer.cpp
+#	new file:   finger (K-means)/HandViewer/Viewer.h
+#	new file:   finger (K-means)/HandViewer/glut64.lib
+#	new file:   finger (K-means)/HandViewer/guitar.bmp
+#	new file:   finger (K-means)/HandViewer/guitar2.bmp
+#	new file:   finger (K-means)/HandViewer/main.cpp
+#	new file:   finger (K-means)/README.md
+#	new file:   finger (Robust method)/.gitignore
+#	new file:   finger (Robust method)/HandViewer/0.txt
+#	new file:   finger (Robust method)/HandViewer/1.txt
+#	new file:   finger (Robust method)/HandViewer/2.txt
+#	new file:   finger (Robust method)/HandViewer/3.txt
+#	new file:   finger (Robust method)/HandViewer/4.txt
+#	new file:   finger (Robust method)/HandViewer/5.txt
+#	new file:   finger (Robust method)/HandViewer/ClassDiagram1.cd
+#	new file:   finger (Robust method)/HandViewer/GlU32.Lib
+#	new file:   finger (Robust method)/HandViewer/HandViewer.sln
+#	new file:   finger (Robust method)/HandViewer/HandViewer.vcxproj
+#	new file:   finger (Robust method)/HandViewer/HandViewer.vcxproj.filters
+#	new file:   finger (Robust method)/HandViewer/HistoryBuffer.h
+#	new file:   finger (Robust method)/HandViewer/NiteSampleUtilities.h
+#	new file:   finger (Robust method)/HandViewer/Record.txt
+#	new file:   finger (Robust method)/HandViewer/Viewer.cpp
+#	new file:   finger (Robust method)/HandViewer/Viewer.h
+#	new file:   finger (Robust method)/HandViewer/glut64.lib
+#	new file:   finger (Robust method)/HandViewer/guitar.bmp
+#	new file:   finger (Robust method)/HandViewer/guitar2.bmp
+#	new file:   finger (Robust method)/HandViewer/main.cpp
+#	new file:   finger (Robust method)/README.md
+#	new file:   finger (area recorder)/.gitignore
+#	new file:   finger (area recorder)/HandViewer/ClassDiagram1.cd
+#	new file:   finger (area recorder)/HandViewer/GlU32.Lib
+#	new file:   finger (area recorder)/HandViewer/HandViewer.sln
+#	new file:   finger (area recorder)/HandViewer/HandViewer.vcxproj
+#	new file:   finger (area recorder)/HandViewer/HandViewer.vcxproj.filters
+#	new file:   finger (area recorder)/HandViewer/HistoryBuffer.h
+#	new file:   finger (area recorder)/HandViewer/NiteSampleUtilities.h
+#	new file:   finger (area recorder)/HandViewer/Record.txt
+#	new file:   finger (area recorder)/HandViewer/Viewer.cpp
+#	new file:   finger (area recorder)/HandViewer/Viewer.h
+#	new file:   finger (area recorder)/HandViewer/glut64.lib
+#	new file:   finger (area recorder)/HandViewer/guitar.bmp
+#	new file:   finger (area recorder)/HandViewer/guitar2.bmp
+#	new file:   finger (area recorder)/HandViewer/main.cpp
+#	new file:   finger (area recorder)/HandViewer/test.txt
+#	new file:   finger (area recorder)/README.md
+#	new file:   finger/.gitignore
+#	new file:   finger/AllenFingerTracking
+#	new file:   finger/HandViewer/0.txt
+#	new file:   finger/HandViewer/1.txt
+#	new file:   finger/HandViewer/2.txt
+#	new file:   finger/HandViewer/3.txt
+#	new file:   finger/HandViewer/4.txt
+#	new file:   finger/HandViewer/5.txt
+#	new file:   finger/HandViewer/ClassDiagram1.cd
+#	new file:   finger/HandViewer/GlU32.Lib
+#	new file:   finger/HandViewer/HandViewer.sln
+#	new file:   finger/HandViewer/HandViewer.vcxproj
+#	new file:   finger/HandViewer/HandViewer.vcxproj.filters
+#	new file:   finger/HandViewer/HistoryBuffer.h
+#	new file:   finger/HandViewer/NiteSampleUtilities.h
+#	new file:   finger/HandViewer/Record.txt
+#	new file:   finger/HandViewer/Viewer.cpp
+#	new file:   finger/HandViewer/Viewer.h
+#	new file:   finger/HandViewer/glut64.lib
+#	new file:   finger/HandViewer/guitar.bmp
+#	new file:   finger/HandViewer/guitar2.bmp
+#	new file:   finger/HandViewer/main.cpp
+#	new file:   finger/README.md
+#	new file:   new drum/HandViewer/5.txt
+#	new file:   new drum/HandViewer/ClassDiagram1.cd
+#	new file:   new drum/HandViewer/GL/GLU.h
+#	new file:   new drum/HandViewer/GL/freeglut/freeglut.h
+#	new file:   new drum/HandViewer/GL/freeglut/freeglut_ext.h
+#	new file:   new drum/HandViewer/GL/freeglut/freeglut_std.h
+#	new file:   new drum/HandViewer/GL/freeglut/glut.h
+#	new file:   new drum/HandViewer/GL/gl.h
+#	new file:   new drum/HandViewer/GL/glext.h
+#	new file:   new drum/HandViewer/GL/glui.h
+#	new file:   new drum/HandViewer/GL/glut.h
+#	new file:   new drum/HandViewer/GL/wglext.h
+#	new file:   new drum/HandViewer/GlU32.Lib
+#	new file:   new drum/HandViewer/HandViewer.sdf
+#	new file:   new drum/HandViewer/HandViewer.sln
+#	new file:   new drum/HandViewer/HandViewer.suo
+#	new file:   new drum/HandViewer/HandViewer.vcxproj
+#	new file:   new drum/HandViewer/HandViewer.vcxproj.filters
+#	new file:   new drum/HandViewer/HandViewer.vcxproj.user
+#	new file:   new drum/HandViewer/HistoryBuffer.h
+#	new file:   new drum/HandViewer/NiTE2.dll
+#	new file:   new drum/HandViewer/NiTE2/Data/lbsdata.idx
+#	new file:   new drum/HandViewer/NiTE2/Data/lbsdata.lbd
+#	new file:   new drum/HandViewer/NiTE2/Data/lbsparam1.lbd
+#	new file:   new drum/HandViewer/NiTE2/Data/lbsparam2.lbd
+#	new file:   new drum/HandViewer/NiTE2/FeatureExtraction.ini
+#	new file:   new drum/HandViewer/NiTE2/HandAlgorithms.ini
+#	new file:   new drum/HandViewer/NiTE2/h.dat
+#	new file:   new drum/HandViewer/NiTE2/s.dat
+#	new file:   new drum/HandViewer/NiteSampleUtilities.h
+#	new file:   new drum/HandViewer/OpenNI2.dll
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/Kinect.dll
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/Kinect.pdb
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/OniFile.dll
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/OniFile.pdb
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/PS1080.dll
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/PS1080.ini
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/PS1080.pdb
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/PSLink.dll
+#	new file:   new drum/HandViewer/OpenNI2/Drivers/PSLink.pdb
+#	new file:   new drum/HandViewer/Record.txt
+#	new file:   new drum/HandViewer/RtMIDI/RtError.h
+#	new file:   new drum/HandViewer/RtMIDI/RtMidi.cpp
+#	new file:   new drum/HandViewer/RtMIDI/RtMidi.h
+#	new file:   new drum/HandViewer/Viewer.cpp
+#	new file:   new drum/HandViewer/Viewer.h
+#	new file:   new drum/HandViewer/Win32/Debug/CL.read.1.tlog
+#	new file:   new drum/HandViewer/Win32/Debug/CL.write.1.tlog
+#	new file:   new drum/HandViewer/Win32/Debug/HandViewer.lastbuildstate
+#	new file:   new drum/HandViewer/Win32/Debug/HandViewer.log
+#	new file:   new drum/HandViewer/Win32/Debug/HandViewer.unsuccessfulbuild
+#	new file:   new drum/HandViewer/Win32/Debug/HandViewer.write.1.tlog
+#	new file:   new drum/HandViewer/Win32/Debug/RtMidi.obj
+#	new file:   new drum/HandViewer/Win32/Debug/cl.command.1.tlog
+#	new file:   new drum/HandViewer/Win32/Debug/vc100.idb
+#	new file:   new drum/HandViewer/Win32/Debug/vc100.pdb
+#	new file:   new drum/HandViewer/bin/CL.read.1.tlog
+#	new file:   new drum/HandViewer/bin/CL.write.1.tlog
+#	new file:   new drum/HandViewer/bin/HandViewer.Build.CppClean.log
+#	new file:   new drum/HandViewer/bin/HandViewer.exe
+#	new file:   new drum/HandViewer/bin/HandViewer.exe.intermediate.manifest
+#	new file:   new drum/HandViewer/bin/HandViewer.exe.manifest
+#	new file:   new drum/HandViewer/bin/HandViewer.lastbuildstate
+#	new file:   new drum/HandViewer/bin/HandViewer.log
+#	new file:   new drum/HandViewer/bin/HandViewer.pdb
+#	new file:   new drum/HandViewer/bin/HandViewer.write.1.tlog
+#	new file:   new drum/HandViewer/bin/RtMidi.obj
+#	new file:   new drum/HandViewer/bin/Viewer.obj
+#	new file:   new drum/HandViewer/bin/cl.command.1.tlog
+#	new file:   new drum/HandViewer/bin/link.command.1.tlog
+#	new file:   new drum/HandViewer/bin/link.read.1.tlog
+#	new file:   new drum/HandViewer/bin/link.write.1.tlog
+#	new file:   new drum/HandViewer/bin/main.obj
+#	new file:   new drum/HandViewer/bin/mt.command.1.tlog
+#	new file:   new drum/HandViewer/bin/mt.read.1.tlog
+#	new file:   new drum/HandViewer/bin/mt.write.1.tlog
+#	new file:   new drum/HandViewer/bin/vc100.idb
+#	new file:   new drum/HandViewer/bin/vc100.pdb
+#	new file:   new drum/HandViewer/drum.bmp
+#	new file:   new drum/HandViewer/glut64.dll
+#	new file:   new drum/HandViewer/glut64.lib
+#	new file:   new drum/HandViewer/ipch/handviewer-141f5b03/handviewer-9b807343.ipch
+#	new file:   new drum/HandViewer/main.cpp
+#	new file:   vst_test/Audio/-------.wav
+#	new file:   vst_test/Images/-------.peak
+#	new file:   vst_test/README.txt
+#	new file:   vst_test/vst-01.cpr
+#	new file:   vst_test/vst-02-02.bak
+#	new file:   vst_test/vst-02-03.bak
+#	new file:   vst_test/vst-02-04.bak
+#	new file:   vst_test/vst-02-05.bak
+#	new file:   vst_test/vst-02-06.bak
+#	new file:   vst_test/vst-02-07.bak
+#	new file:   vst_test/vst-02-08.bak
+#	new file:   vst_test/vst-02-09.bak
+#	new file:   vst_test/vst-02.cpr
+#	new file:   vst_test/vst-03.bak
+#	new file:   vst_test/vst-03.cpr
+#	new file:   vst_test/vst-04-03.bak
+#	new file:   vst_test/vst-04.cpr
+#	new file:   vst_test/vst-05-02.bak
+#	new file:   vst_test/vst-05-03.bak
+#	new file:   vst_test/vst-05.cpr
+#	new file:   vst_test/vst-06-04.bak
+#	new file:   vst_test/vst-06.cpr
+#	new file:   vst_test/vst-07.bak
+#	new file:   vst_test/vst-08.bak
+#	new file:   vst_test/vst-09.bak
+#	new file:   vst_test/vst-10.bak
+#	new file:   vst_test/vst.cpr
+#
+

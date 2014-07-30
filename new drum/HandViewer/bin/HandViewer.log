@@ -1,0 +1,37 @@
+﻿已經開始建置於 2014/7/8 下午 02:18:24。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\HandViewer.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\OpenNI2\Include\\" /I. /I"C:\Program Files\PrimeSense\NiTE2\Include\\" /IC:\boost_1_51_0\ /Zi /nologo /W3 /WX- /MP /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\\" /Fd"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp RtMIDI\RtMidi.cpp Viewer.cpp
+     1>cl : 命令列 warning D9030: '/Gm' 和多重處理不相容; 忽略 /MP 參數
+         Viewer.cpp
+     1>Viewer.cpp(89): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 請參閱 'strncpy' 的宣告
+     1>Viewer.cpp(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>Viewer.cpp(808): warning C4101: 'input' : 未參考的區域變數
+     1>Viewer.cpp(847): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+         RtMidi.cpp
+     1>RtMIDI\RtMidi.cpp(2140): warning C4267: '引數' : 將 'size_t' 轉換為 'int'，資料可能遺失
+     1>RtMIDI\RtMidi.cpp(2215): warning C4267: '引數' : 將 'size_t' 轉換為 'int'，資料可能遺失
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\\" /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\OpenNI2\Lib\\" /LIBPATH:. /LIBPATH:C:\boost_1_51_0\lib64\ opengl32.lib glut64.lib NiTE2.lib OpenNI2.lib winmm.lib GLU32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\bin\HandViewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.lib" /MACHINE:X64 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\main.obj"
+         "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\RtMidi.obj"
+         "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\Viewer.obj"
+         HandViewer.vcxproj -> C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.exe.manifest" /manifest "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在刪除檔案 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.unsuccessfulbuild"。
+         正在變更時間戳記 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\\bin\HandViewer.lastbuildstate"。
+     1>專案 "C:\Users\AllenHsu\Desktop\new drum\HandViewer\HandViewer.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.28
